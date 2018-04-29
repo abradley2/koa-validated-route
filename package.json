@@ -1,6 +1,6 @@
 {
   "name": "@abradley2/koa-validated-route",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa-route with validation courtesy of \"is-my-json-valid\"",
   "main": "index.js",
   "scripts": {

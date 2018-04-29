@@ -50,6 +50,7 @@ submitRoute.schema = {
   }
 }
 
-app.use(withValidate.post('/submit/:sessionId'))
-
+app.use(
+  withValidation.post('/submit/:sessionId', submitRoute)
+)
 ```

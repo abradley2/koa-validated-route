@@ -22,7 +22,6 @@ const withValidation = method => (path, routeHandler) => {
 
   return route[method](path, async (ctx, ...args) => {
     const errors = validators.reduce((errs, {requestKey, validator}) => {
-      global.console.log(requestKey, ctx.request[requestKey])
       validator(ctx.request[requestKey])
 
       return validator.errors ? errs.concat(validator.errors) : errs
