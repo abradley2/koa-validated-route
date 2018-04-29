@@ -1,0 +1,32 @@
+{
+  "name": "@abradley2/koa-validated-route",
+  "version": "1.0.0",
+  "description": "koa-route with validation courtesy of \"is-my-json-valid\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape tizzest.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley2/koa-validated-route.git"
+  },
+  "author": "Tony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/koa-validated-route/issues"
+  },
+  "homepage": "https://github.com/abradley2/koa-validated-route#readme",
+  "dependencies": {
+    "is-my-json-valid": "^2.17.2",
+    "koa-route": "^3.2.0"
+  },
+  "devDependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "standard": "^11.0.1",
+    "supertest": "^3.0.0",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.9.0"
+  }
+}
